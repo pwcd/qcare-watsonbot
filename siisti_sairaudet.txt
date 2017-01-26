@@ -1,0 +1,103 @@
+{
+    "case_id": null,
+    "conditions": [
+        {
+            "id": "c_49",
+            "name": "Migraine",
+            "probability": 0.023
+        }
+    ],
+    "evaluation_time": null,
+    "extras": {},
+    "extras_permanent": {},
+    "lab_tests": [],
+    "patient_age": 35,
+    "patient_sex": "female",
+    "pursued": [],
+    "question": {
+        "extras": {},
+        "items": [
+            {
+                "choices": [
+                    {
+                        "id": "present",
+                        "label": "Yes"
+                    },
+                    {
+                        "id": "absent",
+                        "label": "No"
+                    },
+                    {
+                        "id": "unknown",
+                        "label": "Don't know"
+                    }
+                ],
+                "id": "s_1193",
+                "name": "Severe"
+            },
+            {
+                "choices": [
+                    {
+                        "id": "present",
+                        "label": "Yes"
+                    },
+                    {
+                        "id": "absent",
+                        "label": "No"
+                    },
+                    {
+                        "id": "unknown",
+                        "label": "Don't know"
+                    }
+                ],
+                "id": "s_25",
+                "name": "Pulsing or throbbing"
+            },
+            {
+                "choices": [
+                    {
+                        "id": "present",
+                        "label": "Yes"
+                    },
+                    {
+                        "id": "absent",
+                        "label": "No"
+                    },
+                    {
+                        "id": "unknown",
+                        "label": "Don't know"
+                    }
+                ],
+                "id": "s_604",
+                "name": "Feels like \"stabbing\" or \"drilling\""
+            },
+            {
+                "choices": [
+                    {
+                        "id": "present",
+                        "label": "Yes"
+                    },
+                    {
+                        "id": "absent",
+                        "label": "No"
+                    },
+                    {
+                        "id": "unknown",
+                        "label": "Don't know"
+                    }
+                ],
+                "id": "s_23",
+                "name": "Feels like pressure around my head"
+            }
+        ],
+        "text": "How would you describe your headache?",
+        "type": "group_multiple"
+    },
+    "risk_factors": [],
+    "symptoms": [
+        {
+            "choice_id": "present",
+            "id": "s_21"
+        }
+    ]
+}

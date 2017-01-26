@@ -1,0 +1,11 @@
+{
+    "mentions": [
+        {
+            "choice_id": "present",
+            "id": "s_21",
+            "name": "Headache",
+            "orth": "headache",
+            "type": "symptom"
+        }
+    ]
+}

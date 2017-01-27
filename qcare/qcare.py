@@ -112,7 +112,7 @@ class QCareApp:
       symptoms = watson_response['entities'][0]['value']
       response = "Here's a list of your symptoms " +self.handle_symptoms_message(symptoms) +"\n"+ "The most possible diagnosis could be " + self.get_diagnosis(symptoms)
     else:
-      response ="sry try again "
+      response =""
       for text in watson_response['output']['text']:
         response += text + "\n"
 
